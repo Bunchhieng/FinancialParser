@@ -1,4 +1,4 @@
 ## FinancialParser
 Financial parser uses Django and BeautifulSoup.
 
-![alt tag](https://www.dropbox.com/s/3uosb0p1rgbegvf/Screen%20Shot%202015-06-18%20at%2011.17.48%20AM.png?dl=0)
+![alt tag](https://www.dropbox.com/home?preview=Screen+Shot+2015-06-18+at+11.17.48+AM.png)
