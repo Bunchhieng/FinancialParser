@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# Yahoo Parser
-=======
-# FinancialParser
+## FinancialParser
 Financial parser uses Django and BeautifulSoup.
->>>>>>> 75a4219d57df7c8ec6527a882f1b2ae30b1e3e75
+
+![alt tag](https://www.dropbox.com/s/3uosb0p1rgbegvf/Screen%20Shot%202015-06-18%20at%2011.17.48%20AM.png?dl=0)
