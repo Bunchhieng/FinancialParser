@@ -1,0 +1,18 @@
+{% extends 'finance_parser/base.html' %}
+{% block title %} {{ name }} {% endblock %}
+{% block body_content %}
+<div class="well">
+    <h1 id="brand_name">{{ symbol }} : {{ name }}</h1>
+    {% comment %}<p>{{ request.get_full_path }}</p>{% endcomment %}
+    {% if gen_table %}
+    <a href="/clicked/" class="btn btn-success btn-raised">Get CSV</a>
+    {{ gen_table|safe }}
+    {% endif %}
+    <br>
+
+    <p>Financial statement is parsed from
+        <a href="http://www.nasdaq.com/screening/companies-by-industry.aspx?industry=Finance" target="_blank">Nasdaq</a>
+    </p>
+</div>
+
+{% endblock %}

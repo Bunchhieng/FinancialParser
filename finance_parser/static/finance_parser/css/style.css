@@ -1,0 +1,55 @@
+body {
+   min-height: 850px;
+   padding-bottom: 40px;
+   font-family: 'Roboto', sans-serif;
+   font-size: 17px;
+   background: #FFFFFF !important;
+}
+.well {
+    background-color: #FFFFFF !important;
+}
+@media(max-width:767px) {
+   .navbar .navbar-form {
+      width: 185px;
+      padding-left: 0;
+      padding-right: 0;
+   }
+}
+@media(min-width:768px) {
+   .navbar .navbar-form {
+      width: 250px;
+   }
+}
+#brand {
+   text-align: center;
+}
+#brand:active {
+   text-decoration: none;
+}
+#brand:hover {
+   text-decoration: none;
+}
+#modalnorm {
+   padding-top: 10px;
+}
+* {
+   box-sizing: border-box;
+}
+.header-panel {
+   background-color: #009587;
+   height: 70px;
+   position: relative;
+   z-index: 3;
+}
+.header-panel div {
+   position: relative;
+   height: 100%;
+}
+.header-panel h1 {
+   color: #FFF;
+   font-size: 20px;
+   font-weight: 400;
+   position: absolute;
+   bottom: 10px;
+   padding-left: 35px;
+}
